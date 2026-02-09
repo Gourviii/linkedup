@@ -101,7 +101,7 @@ const elements = [
   },
   {
     id: "03",
-    image: "",
+    image: "/6keyelementimg/Vauge03.jpeg",
     title: "Skip vague words",
     subtitle: "NO 'SEEKING', NO 'ENTHUSIASTS'. SAY WHAT YOU DO.",
     description:
