@@ -9,13 +9,11 @@ import { AnimatePresence } from "framer-motion";
 function App() {
   return (
     <BrowserRouter>
-    
-    <ScrollToTop/>
+      <ScrollToTop />
       <Navbar />
       <AppRoutes />
-      <WhatsAppFloat /> 
-      <Footer/>
-     
+      <WhatsAppFloat />
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -10,8 +10,6 @@ import LogosCard from "../components/LogosCard";
 import LinkedInMakeover from "../components/LinkedInMakeover";
 
 const Hero = () => {
-
-
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -29,16 +27,16 @@ const Hero = () => {
         id="home"
         className="relative bg-[#0a0a0a] overflow-x-hidden w-full h-200 md:h-200 md:pt-25 scroll-mt-18 flex flex-col overflow-hidden justify-center items-center  px-6 md:px-45"
       >
-         <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-2xl md:text-4xl font-semibold text-[#b85c5c]  mt-2 mb-3">
-              LinkedIn Personal Brand Strategist
-            </h2>
-          </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-2xl md:text-4xl font-semibold text-[#b85c5c]  mt-2 mb-3">
+            LinkedIn Personal Brand Strategist
+          </h2>
+        </motion.div>
         <div className="max-w-5x text-center">
           <motion.div
             initial={{ opacity: 0 }}
@@ -50,7 +48,7 @@ const Hero = () => {
               Stop Posting. Start Being Remembered.
             </h1>
           </motion.div>
-   
+
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -80,36 +78,38 @@ const Hero = () => {
             </div>
           </motion.div>
         </div>
-        <div className="text-2xl md:text-4xl font-bold max-w-3xl text-center py-20 md:pt-40 -mb-20 text-white leading-tight"> 
-           <p>
-             <i> "Authority isn’t built by posting more.., It’s built through 
-              consistent, meaningful conversations."</i>
-            </p>
+        <div className="text-2xl md:text-4xl font-bold max-w-3xl text-center py-20 md:pt-40 -mb-20 text-white leading-tight">
+          <p>
+            <i>
+              {" "}
+              "Authority isn’t built by posting more.., It’s built through
+              consistent, meaningful conversations."
+            </i>
+          </p>
         </div>
       </section>
+
       <About />
       <Services />
-      <LinkedInMakeover/>
-         <Testimonials />
-          {/* My client have worked at -  */}
+      <LinkedInMakeover />
+      <Testimonials />
+
+      {/* My client have worked at -  */}
       <section className="w-full py-16 overflow-hidden bg-[#0a0a0a] text-white">
         <h1 className="text-3xl md:text-4xl font-bold text-center ">
           My client have worked at
         </h1>
-          {/* Underline */}
-          <motion.div
-            initial={{ width: 0 }}
-            whileInView={{ width: "10rem" }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            viewport={{ once: true }}
-            className="w-36 h-1 mb-4 bg-[#b85c5c] mx-auto mt-4 rounded-full"
-          />
-       <LogosCard />
+        {/* Underline */}
+        <motion.div
+          initial={{ width: 0 }}
+          whileInView={{ width: "10rem" }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="w-36 h-1 mb-4 bg-[#b85c5c] mx-auto mt-4 rounded-full"
+        />
+
+        <LogosCard />
       </section>
-
-  
-
-   
     </>
   );
 };
