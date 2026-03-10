@@ -47,7 +47,7 @@ const Contact = () => {
           className="text-4xl font-bold text-center mt-10 mb-12"
         >
           Contact <span className="text-[#b85c5c]">Me</span>
-                {/* Underline */}
+          {/* Underline */}
           <motion.div
             initial={{ width: 0 }}
             whileInView={{ width: "5rem" }}
@@ -107,9 +107,7 @@ const Contact = () => {
                 />
               </div>
               <div className="flex flex-col gap-2">
-                <label className="text-sm font-medium text-white">
-                  Email
-                </label>
+                <label className="text-sm font-medium text-white">Email</label>
                 <input
                   name="email"
                   type="email"
@@ -121,9 +119,7 @@ const Contact = () => {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label className="text-sm font-medium text-white">
-                Message
-              </label>
+              <label className="text-sm font-medium text-white">Message</label>
               <textarea
                 name="message"
                 rows="5"

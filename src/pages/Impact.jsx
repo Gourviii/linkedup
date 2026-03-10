@@ -162,7 +162,7 @@ const elements = [
     <div className="bg-[#0a0a0a] text-gray-200 ">
       {/* HERO */}
       <section className="min-h-screen flex items-center justify-center text-center  md:pt-0 px-6">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mb-10">
           <p className="text-xs tracking-[3px] text-gray-400 mb-6">
             PROFILE OPTIMIZATION EXPERT
           </p>
@@ -243,7 +243,7 @@ const elements = [
         key={item.id}
         className={`grid md:grid-cols-2  gap-12 items-center 
         bg-gradient-to-r from-[#0f0f0f] to-[#151515] 
-        rounded-2xl p-12 shadow-2xl`}
+        rounded-2xl p-5 md:p-12 shadow-2xl`}
       >
         {/* LEFT TEXT */}
         <div>
@@ -282,7 +282,7 @@ const elements = [
         {/* RIGHT VISUAL */}
         <div className="bg-[#3d3427] rounded-2xl h-64 flex items-center justify-center text-[#9fb3c8] shadow-inner overflow-hidden">
           {item.image ? (
-            <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+            <img src={item.image} alt={item.title} className="w-full h-full" />
           ) : (
             <span>Visual here</span>
           )}
@@ -317,7 +317,7 @@ const elements = [
       <img
         src={item.images}
         alt=""
-        className="w-full h-64 p-0 object-cover"
+        className="w-full h-64 p-0"
       />
     </div>
   ))}

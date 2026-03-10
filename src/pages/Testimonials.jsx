@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import image1 from "../assets/images/Testimonialsimg/Picture1.jpg";
-import image2 from "../assets/images/Testimonialsimg/Picture2.jpg";
+import image2 from "../assets/images/Testimonialsimg/Picture4.jpg";
 import image3 from "../assets/images/Testimonialsimg/Picture3.jpg";
-import image4 from "../assets/images/Testimonialsimg/Picture4.jpg";
+import image4 from "../assets/images/Testimonialsimg/Picture2.jpg";
 import image5 from "../assets/images/Testimonialsimg/Picture5.jpg";
 import image6 from "../assets/images/Testimonialsimg/Picture66.jpeg";
 
