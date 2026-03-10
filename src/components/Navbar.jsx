@@ -3,7 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdClose } from "react-icons/md";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import WebsiteLogo from "../assets/WebsiteLogo-Photoroom.png";
+import WebsiteLogo from "../assets/Linkeduppimage-removebg-preview.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
